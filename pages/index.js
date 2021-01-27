@@ -36,7 +36,7 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>
-              udhushushdushudhsunhdushduhsds
+              udhushushdushudhsunhdushdu
             </p>
           </Widget.Content>
         </Widget>
