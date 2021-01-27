@@ -60,7 +60,7 @@ export default function Home() {
         <meta property="og:url" content="https://breakingbad-quiz.amandaperrone.vercel.app/" />
         <meta property="og:title" content="BREAKING BAD QUIZ" />
         <meta property="og:description" content="Projeto criado durante a Imersão React Nextjs da Alura." />
-        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+        <meta property="og:image" content="https://www.wallpaperup.com/uploads/wallpapers/2013/08/20/136473/89620c3fe3f6b393b90487b29c9b9925-1000.jpg" />
       </Head>
       
     <QuizBackground backgroundImage={db.bg}>
