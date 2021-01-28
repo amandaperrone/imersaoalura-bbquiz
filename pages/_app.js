@@ -1,4 +1,6 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import React from 'react';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import Head from 'next/head';
 import db from '../db.json';
 
 const GlobalStyle = createGlobalStyle`
@@ -25,15 +27,34 @@ html, body {
 }
 `;
 
-const theme = db.theme;
+const { theme } = db;
 
+// eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>BREAKING BAD QUIZ</title>
+        <meta name="title" content="BREAKING BAD QUIZ" />
+        <meta name="description" content="Projeto criado durante a Imersão React Nextjs da Alura." />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://breakingbad-quiz.amandaperrone.vercel.app/" />
+        <meta property="og:title" content="BREAKING BAD QUIZ" />
+        <meta property="og:description" content="Projeto criado durante a Imersão React Nextjs da Alura." />
+        <meta property="og:image" content="https://www.wallpaperup.com/uploads/wallpapers/2013/08/20/136473/89620c3fe3f6b393b90487b29c9b9925-1000.jpg" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+        <link rel="icon" href="https://static.thenounproject.com/png/135447-200.png" />
+      </Head>
       <ThemeProvider theme={theme}>
-      <GlobalStyle />
-        <Component {...pageProps} /> {/* Muda para cada página */}
+        <GlobalStyle />
+        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+        <Component {...pageProps} />
+        {' '}
+        {/* Muda para cada página */}
       </ThemeProvider>
     </>
-  )
+  );
 }
