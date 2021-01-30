@@ -1,25 +1,15 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React from 'react';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizContainer from '../src/components/QuizContainer';
 // eslint-disable-next-line import/no-named-as-default
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Button from '../src/components/Button';
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+import Input from '../src/components/Input';
 
 export default function Home() {
   const router = useRouter();
@@ -35,17 +25,16 @@ export default function Home() {
             <h1>DO YOU KNOW HOW TO BREAK BAD?</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (infosDoEvento) {
+            <form onSubmit={(infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
-                  // name = infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => { setName(infosDoEvento.target.value); }}
                 placeholder="Say your name."
+                value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}

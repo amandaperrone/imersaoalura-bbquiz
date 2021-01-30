@@ -1,28 +1,42 @@
 {
     "bg": "https://www.wallpaperup.com/uploads/wallpapers/2013/08/20/136473/89620c3fe3f6b393b90487b29c9b9925-1000.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Breaking Bad Quiz",
+    "description": "Do you know how to break bad?",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://conteudo.imguol.com.br/c/entretenimento/71/2020/05/03/elenco-de-breaking-bad-1588525152104_v2_1920x1080.jpg",
+        "title": "Quando a série foi lançada?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "20 de janeiro de 2008",
+          "20 de janeiro de 2009",
+          "20 fevereiro de 2008",
+          "20 fevereiro de 2009"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://img1.looper.com/img/gallery/why-jane-from-breaking-bad-had-to-die/intro-1588108692.jpg",
+        "title": "Como morreu Jane, namorada de Jesse Pinkman?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 1,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Atropelamento",
+           "Sufocada no próprio vômito",
+           "Bala perdida",
+           "Asssassinato"
+        ]
+      },
+      {
+        "image": "https://static2.srcdn.com/wordpress/wp-content/uploads/2019/07/Breaking-Bad-Hector-Salamanca-.jpg",
+        "title": "Qual o nome do traficante de drogas cadeirante?",
+        "description": "Faz tempo em haha",
+        "answer": 3,
+        "alternatives": [
+           "Eladio",
+           "Tuco",
+           "Lalo",
+           "Hector"
         ]
       }
     ],
@@ -33,6 +47,7 @@
       "colors": {
         "primary": "#ff9100",
         "secondary": "#03a9f4",
+        "light": "#ffa733",
         "mainBg": "#000000",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
