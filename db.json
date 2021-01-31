@@ -6,7 +6,7 @@
       {
         "image": "https://conteudo.imguol.com.br/c/entretenimento/71/2020/05/03/elenco-de-breaking-bad-1588525152104_v2_1920x1080.jpg",
         "title": "Quando a série foi lançada?",
-        "description": "Essa é pra aquecer",
+        "description": "Descrição",
         "answer": 0,
         "alternatives": [
           "20 de janeiro de 2008",
@@ -18,7 +18,7 @@
       {
         "image": "https://img1.looper.com/img/gallery/why-jane-from-breaking-bad-had-to-die/intro-1588108692.jpg",
         "title": "Como morreu Jane, namorada de Jesse Pinkman?",
-        "description": "Faz tempo em haha",
+        "description": "Descrição",
         "answer": 1,
         "alternatives": [
            "Atropelamento",
@@ -30,13 +30,97 @@
       {
         "image": "https://static2.srcdn.com/wordpress/wp-content/uploads/2019/07/Breaking-Bad-Hector-Salamanca-.jpg",
         "title": "Qual o nome do traficante de drogas cadeirante?",
-        "description": "Faz tempo em haha",
+        "description": "Descrição",
         "answer": 3,
         "alternatives": [
            "Eladio",
            "Tuco",
            "Lalo",
            "Hector"
+        ]
+      },
+      {
+        "image": "https://hushcomics1.files.wordpress.com/2013/09/brock-knows.jpg",
+        "title": "Qual o nome da planta que envenenou Block?",
+        "description": "Descrição",
+        "answer": 1,
+        "alternatives": [
+           "Galanthus",
+           "Lírio do Vale",
+           "Narcíso",
+           "Lírio da Paz"
+        ]
+      },
+      {
+        "image": "https://data.junkee.com/wp-content/uploads/2017/05/gus.jpg",
+        "title": "Gus Fring nasceu em qual país?",
+        "description": "Descrição",
+        "answer": 0,
+        "alternatives": [
+           "Chile",
+           "Argentina",
+           "Porto Rico",
+           "Espanha"
+        ]
+      },
+      {
+        "image": "https://lh3.googleusercontent.com/proxy/dA1Q0LbnmVvc_-yWKUAknVVGRhH6DVeBcbuwH6i9ro69bi3OR8L9dur53zdUowegk5qpVzRIegcJHF37zHAOwnHZmlzPPl0JDZu8zFYNiUN4QE_UlIT2ikyX1s0V09bzoQ",
+        "title": "Qual o presente que Marie roubou?",
+        "description": "Descrição",
+        "answer": 0,
+        "alternatives": [
+           "Tiara",
+           "Anel",
+           "Pulseira",
+           "Brinco"
+        ]
+      },
+      {
+        "image": "https://img2.looper.com/img/gallery/the-criminal-mastermind-fans-forget-about-in-breaking-bad/skyler-white-outsmarts-the-irs-but-fails-to-save-ted-beneke-1605552804.jpg",
+        "title": "Qual a profissão da Skyler na Beneke Fabricators?",
+        "description": "Descrição",
+        "answer": 2,
+        "alternatives": [
+           "Secretária",
+           "Tesoureira",
+           "Contadora",
+           "Analista Financeira"
+        ]
+      },
+      {
+        "image": "https://super.abril.com.br/wp-content/uploads/2018/07/breaking-bad.jpg?quality=70&strip=info&w=1024",
+        "title": "Qual o grau de pureza da metafetamina de Walter White?",
+        "description": "Descrição",
+        "answer": 3,
+        "alternatives": [
+           "98,5%",
+           "99,9%",
+           "98,1%",
+           "99,1%"
+        ]
+      },
+      {
+        "image": "https://rollingstone.uol.com.br/media/_versions/aaron-paul-breaking-bad_reproducao_widelg.jpg",
+        "title": "Qual ingrediente especial Jesse utilizava em sua receita de metafetamina?",
+        "description": "Descrição",
+        "answer": 0,
+        "alternatives": [
+           "Páprica",
+           "Pimenta do reino",
+           "Curry",
+           "Orégano"
+        ]
+      },
+      {
+        "image": "https://streamingsbrasil.com/wp-content/uploads/2019/09/walter-white-estara-.jpg",
+        "title": "Qual das frases abaixo não pertence a Walter White?",
+        "description": "Descrição",
+        "answer": 3,
+        "alternatives": [
+           "Say my name",
+           "I'm not in danger. I am the danger",
+           "I am the one who knocks",
+           "Money is the point"
         ]
       }
     ],
